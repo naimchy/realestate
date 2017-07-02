@@ -7,10 +7,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+
+
+
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
@@ -18,106 +26,110 @@
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="slick.css">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="hover.css">
+        <link rel="stylesheet" href="hoverimage.css">
 
-        <script src="vendor/modernizr-2.8.3.min.js"></script>
-        <script src="bootstrap.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="main.js"></script>
+        <script src="parallax.min.js"></script>
+        <script src="slick.min.js"></script>
+        <script src="wow.min.js"></script>
+        <!--<script src="js/bootstrap.js"></script> -->
+
+
+
+<script>
+    new WOW().init();
+</script>
 
     </head>
-    <body>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="70">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
 
-
-    <div class="topsec " style="background-image:url('black.jpg');">
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><span style="font-size: 30px;">N</span>aim</a>
+              <a class="navbar-brand" href="#home"><span style="font-size: 30px;">N</span>aim</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#profile">PROFILE</a></li>
-                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#works">WORKS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-                    <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Merchandise</a></li>
-                    <li><a href="#">Extras</a></li>
-                    <li><a href="#">Media</a></li>
-                  </ul>
-                </li>
-                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
               </ul>
             </div>
           </div>
         </nav>
 
-        <div class="imgmine">
+    <div id="home" class="topsec " style="background-image:url('black.jpg');">
+        <div class="imgmine wow pulse" data-wow-iteration="100">
             <img class="img-responsive" src="pro.jpg">
         </div>
-        <h2>Naim Chowdhury</h2>
+
+        <h2 class="wow bounce" data-wow-duration="1s"
+data-wow-iteration="100">Naim Chowdhury</h2>
         <p>Hello, I am Creative Web Designer & Developer Based in Sylhet, Bangladesh, I have been more than 1+ years in Design & Development Industry.</p>
     </div>
 
-    <div class="container-fluid midsec">
+    <div id="about" class="container-fluid midsec">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5 col-xs-12 myimg">
+            <div class="row ">
+                <div class="col-sm-5 col-xs-12 myimg hover15">
                     <img src="pro2.jpg">
                 </div>
-                <div class="col-sm-7 col-xs-12 aboutme">
+                <div  class="col-sm-7 col-xs-12 aboutme">
                     <h3>A BRIEF ABOUT ME.</h3>
                     <h4>Creative Designers & Wordpresss Specialist</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived notonly five centuries, but also the leap into electronic typesetting, remaining</p>
-                    <button class="button">Download Resume</button>
+                    <button class="button hvr-bounce-out">Download Resume</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid services-sec">
+    <div id="services" class="container-fluid services-sec">
         <div class="container">
-            <h2>MY SERVICES ARE</h2>
+            <h2 >MY SERVICES ARE</h2>
             <div class="row">
-                <div class="col-md-4 services-type">
+                <div class="col-md-4 services-type hvr-buzz-out">
                     <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
                     <h4>PHOTOGRAPHY & PORTRAIT</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing</p>
                 </div>
-                <div class="col-md-4 services-type">
+                <div class="col-md-4 services-type hvr-buzz-out">
                     <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
                     <h4>PHOTOGRAPHY & PORTRAIT</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing</p>
                 </div>
-                <div class="col-md-4 services-type">
+                <div class="col-md-4 services-type hvr-buzz-out">
                     <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
                     <h4>PHOTOGRAPHY & PORTRAIT</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing</p>
                 </div>
-                <div class="col-md-4 services-type">
+                <div class="col-md-4 services-type hvr-buzz-out">
                     <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
                     <h4>PHOTOGRAPHY & PORTRAIT</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing</p>
                 </div>
-                <div class="col-md-4 services-type">
+                <div class="col-md-4 services-type hvr-buzz-out">
                     <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
                     <h4>PHOTOGRAPHY & PORTRAIT</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing</p>
                 </div>
-                <div class="col-md-4 services-type">
+                <div class="col-md-4 services-type hvr-buzz-out">
                     <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
                     <h4>PHOTOGRAPHY & PORTRAIT</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing</p>
@@ -126,7 +138,7 @@
         </div>
     </div>
 
-    <div class="midsec2" style="background-image: url(blackblue.jpg);">
+    <div class="midsec2" data-parallax="scroll" data-image-src="blackblue.jpg">
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <h2 class="count">89</h2>
@@ -147,29 +159,29 @@
         </div>
     </div>
 
-    <div class="container-fluid experiencesec">
+    <div id="experience" class="container-fluid experiencesec">
         <div class="container">
             <h2>EXPERIENCE</h2>
             <div class="row">
-                <div class="col-md-6 experiencesingle">
+                <div class="col-md-6 experiencesingle hvr-buzz-out">
                     <span>2000-2004</span>
                     <h4>COMPUTER SCIENCE</h4>
                     <h6>Google University,Melbourne</h6>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
-                <div class="col-md-6 experiencesingle">
+                <div class="col-md-6 experiencesingle hvr-buzz-out">
                     <span>2000-2004</span>
                     <h4>COMPUTER SCIENCE</h4>
                     <h6>Google University,Melbourne</h6>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
-                <div class="col-md-6 experiencesingle">
+                <div class="col-md-6 experiencesingle hvr-buzz-out">
                     <span>2000-2004</span>
                     <h4>COMPUTER SCIENCE</h4>
                     <h6>Google University,Melbourne</h6>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
-                <div class="col-md-6 experiencesingle">
+                <div class="col-md-6 experiencesingle hvr-buzz-out">
                     <span>2000-2004</span>
                     <h4>COMPUTER SCIENCE</h4>
                     <h6>Google University,Melbourne</h6>
@@ -179,67 +191,67 @@
         </div>
     </div>
 
-    <div class="container-fluid worksec">
+    <div id="works" class="container-fluid worksec">
         <div class="container">
             <div class="row">
                 <h2>MY RECENT WORKS</h2>
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12 hvr-bounce-out">
                     <p>ALL</p>
                 </div>
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12 hvr-bounce-out">
                     <p>WEB-DESIGN</p>
                 </div>
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12 hvr-bounce-out">
                     <p>DEVELOPMENT</p>
                 </div>
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12 hvr-bounce-out">
                     <p>MARKETING</p>
                 </div>
             </div>
             <div class="row workpicsec">
                 <div class="col-md-4">
-                    <div class="containerimg">
-                      <img src="webdevelopment.jpg" alt="Avatar" class="img-responsive ">
+                    <div class="containerimg hover15">
+                      <img src="webdevelopment.jpg" alt="Avatar" class="img-responsive wow flipInY">
                       <div class="overlay">
                         <div class="text">WEB DEVELOPMENT</div>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="containerimg">
-                      <img src="graphic.jpg" alt="Avatar" class="img-responsive">
+                    <div class="containerimg hover15">
+                      <img src="graphic.jpg" alt="Avatar" class="img-responsive wow flipInY">
                       <div class="overlay">
                         <div class="text">GRAPHICS DESIGN</div>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="containerimg">
-                      <img src="photoshop.jpg" alt="Avatar" class="img-responsive">
+                    <div class="containerimg hover15">
+                      <img src="photoshop.jpg" alt="Avatar" class="img-responsive wow flipInY">
                       <div class="overlay">
                         <div class="text">PHOTOSHOP</div>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="containerimg">
-                      <img src="videoediting.jpg" alt="Avatar" class="image">
+                    <div class="containerimg hover15">
+                      <img src="videoediting.jpg" alt="Avatar" class="img-responsive wow flipInY">
                       <div class="overlay">
                         <div class="text">VIDEO EDITING</div>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="containerimg">
-                      <img src="webdesign.jpg" alt="Avatar" class="image">
+                    <div class="containerimg hover15">
+                      <img src="webdesign.jpg" alt="Avatar" class="img-responsive wow flipInY">
                       <div class="overlay">
                         <div class="text">WEB DESIGN</div>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="containerimg">
-                      <img src="smm.jpg" alt="Avatar" class="image">
+                    <div class="containerimg hover15">
+                      <img src="smm.jpg" alt="Avatar" class="img-responsive wow flipInY">
                       <div class="overlay">
                         <div class="text">SOCIAL MEDIA MARKETING</div>
                       </div>
@@ -249,7 +261,7 @@
         </div>
     </div>
 
-    <div class="clientsec" style="background-image: url(fullblack.png);">
+    <div class="clientsec parallax-window" data-parallax="scroll" data-image-src="fullblack.png">
         <h1>WHAT CLIENTS SAYING!</h1>
         <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -289,21 +301,21 @@
         </div>
     </div>
 
-<div class="contactsec">
+<div id="contact" class="contactsec">
     <div class="container">
-        <h1>GET IN TOUCH</h1>
+        <h2>GET IN TOUCH</h2>
         <div class="row contactsectop">
-            <div class="col-md-4 contactdetails">
+            <div class="col-md-4 col-xs-12 contactdetails hvr-buzz-out">
                 <i class="fa fa-location-arrow" aria-hidden="true"></i>
                 <h4>LOCATION</h4>
                 <p>Bianibazar,Sylhet,Bangladesh</p>
             </div>
-            <div class="col-md-4 contactdetails">
+            <div class="col-md-4 col-xs-12 contactdetails hvr-buzz-out">
                 <i class="fa fa-phone-square" aria-hidden="true"></i>
                 <h4>PHONE</h4>
                 <p>+8801768336299</p>
             </div>
-            <div class="col-md-4 contactdetails">
+            <div class="col-md-4 col-xs-12 contactdetails hvr-buzz-out">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <h4>EMAIL</h4>
                 <p>naimchowdhury93@yahoo.com</p>
@@ -321,7 +333,7 @@
                  <textarea placeholder="Message"></textarea>
             </div>
             <div class="col-md-12">
-                 <input type="submit" name="submit" value="Submit">
+                 <input class="hvr-bounce-out" type="submit" name="submit" value="Submit">
             </div>
         </div>
     </div>
@@ -335,9 +347,8 @@
 
 
 
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="plugins.js"></script>
         <script src="main.js"></script>
 
