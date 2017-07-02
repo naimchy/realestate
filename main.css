@@ -200,10 +200,14 @@ textarea {
     background-color: #218DBF;
     color: black;
     text-align: center;
-    padding: 60px 0px;
+    padding: 50px 0px;
 }
 .services-sec h2{
     color: #F9F9F9;
+    margin: 0px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    animation: fadeIn 0.8s infinite alternate;
 }
 .services-type {
     background-color: white;
@@ -241,26 +245,27 @@ textarea {
 
 }
 .midsec2 {
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: block;
     text-align: center;
     height: auto;
     color: white;
-    padding-top: 150px;
-    height: 400px;
-    background-attachment: fixed;
+    padding: 150px 0px;
+    margin: 0px;
 }
 .experiencesec{
     background-color: #0177A7;
-    padding-bottom: 50px;
     color: black;
+    padding: 50px 0px;
 }
 .experiencesec h2{
     text-align: center;
-    padding: 30px 0px;
+    margin: 0px;
+    padding-bottom:50px;
     font-weight: bold;
     color: #F9F9F9;
+    animation: fadeIn 0.8s infinite alternate;
 }
 .experiencesingle{
     background-color: white;
@@ -288,13 +293,16 @@ textarea {
 
 }
 .worksec{
-    padding: 60px 0px;
     background-color: #218DBF;
     color: #F9F9F9;
+    padding: 50px 0px;
 }
 .worksec h2{
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px !important;
+    font-weight: bold;
+    margin: 0px;
+    animation: fadeIn 0.8s infinite alternate;
 }
 .worksec p{
     text-align: center;
@@ -420,13 +428,16 @@ textarea {
 
 .contactsec {
     text-align: center;
-    padding: 40px 0px;
+    padding: 50px 0px;
     background-color: #0177A7;
     color: #FFFFFF;
 }
-.contactsec h1{
-    padding-bottom: 30px;
+.contactsec h2{
+    margin: 0px;
+    padding-bottom: 50px;
     text-align: center;
+    font-weight: bold;
+    animation: fadeIn 0.8s infinite alternate;
 }
 .contactsectop .fa{
     font-size: 50px;
@@ -473,7 +484,6 @@ textarea {
     margin-top: 15px;
     outline: none;
     border: 1px solid white;
-
 }
 .contactbottom input[type="submit"]:hover{
     background-color: black;
@@ -510,7 +520,7 @@ textarea {
     background-size: 100% 100%;
     font-size: 15px;
     margin: 0px;
-    padding-top: 90px;
+    padding:90px 0px;
     }
     .clientsec{
         background-size:100% 100%;
@@ -541,7 +551,7 @@ textarea {
     background-size: 100% 100%;
     font-size: 15px;
     margin: 0px;
-    padding-top: 15px;
+    padding: 15px 0px;
     }
     .clientsec{
         background-size:100% 100%;
@@ -629,6 +639,7 @@ textarea {
 
 
 
+
  /* Add a dark background color with a little bit see-through */
 .navbar {
     margin-bottom: 0;
@@ -675,6 +686,7 @@ textarea {
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
+
 
 
 
